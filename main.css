@@ -1,0 +1,170 @@
+body {
+    font-family: 'montserrat', 'comfortaa', 'arial', sans-serif;
+    font-size: 0.86rem;
+    line-height: 1.7rem;
+}
+
+section,
+footer {
+    padding: 4em 0;
+}
+
+footer a {
+    color: #f0f8ff
+}
+
+.green {
+    color: limegreen;
+}
+
+.bold {
+    font-family: "oswald";
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "open sans condensed";
+
+}
+
+.upcase {
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+.grey-background {
+    background: #eaeaea
+}
+
+.gray-background {
+    background: #f0f8ff
+}
+
+.blue {
+    background: limegreen;
+    color: white;
+}
+
+.red {
+    background: limegreen;
+    color: white;
+    padding: 2rem;
+    border-radius: 0 4em ;
+}
+
+#background1 {
+    background: url(./image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: unset;
+}
+
+.imgg image {
+    width: 100%;
+}
+
+.btnn {
+    background: transparent;
+    border: 2px solid white;
+    padding: 0.5em 1em;
+    color: white;
+}
+
+.right{
+    text-align: right;
+}
+
+footer a:hover{
+    color: #fff;
+    /* background: #ffffff; */
+    text-decoration: none;
+}
+
+
+/* banner */
+
+.banner{
+    /* padding: 12em; */
+	background-image:url('image/slider2.jpg');
+	text-align: center;
+    color: #fff;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	/* font-family: 'Lobster', cursive; */
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:#fff;
+}
+.banner-sub-heading{
+	/* font-family: 'Libre Baskerville', serif; */
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+}
+
+/* mobile view */
+@media (max-width:500px)
+{
+	/* .navbar-nav{
+		background-color:#000;
+		border-top:3px solid #fed136;
+		color:#fff;
+		z-index:1;
+		margin-top:5px;
+		}
+	.navbar-nav .nav-item .nav-link{
+	padding: 0.7em 1em!important;
+	font-size: 100%;
+    font-weight: 500;
+    } */
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+.banner-heading{
+	font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+}
+
+@media (max-width:768px){
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+	.banner-sub-heading{
+	font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+}
+ 
+
+
