@@ -17,6 +17,16 @@ footer a {
     color: limegreen;
 }
 
+.grey{
+    background: #7d7d7d;
+    color: #fff;
+}
+
+.bradius{
+    padding: 2rem;
+    border-radius: 0 4em ;
+}
+
 .bold {
     font-family: "oswald";
     font-weight: 700;

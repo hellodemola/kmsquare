@@ -31,7 +31,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12"></div>
-            <div class="col-md-6 col-sm-12 red shadow">
+            <div class="col-md-6 col-sm-12 grey bradius shadow">
                 <h4 class="upcase bold yellow">We provide best financial advise</h4>
                 <br>
                 <p>
